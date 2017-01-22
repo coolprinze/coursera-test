@@ -1,0 +1,63 @@
+body{
+			font-family: helvetica;
+			font-size: 12px;
+		}
+		.container{
+			padding: 10px;
+			width: 100%;
+		}
+
+		h2 {
+			text-align: center;
+			font-size: 4em;
+		}
+		.bg-color{
+			background: grey;
+			padding: 40px 15px 40px 15px;
+			margin: 20px 20px ;
+			border: 5px solid black;
+			position: relative;			
+		}
+		header {
+			padding: 0px 10px 0px 10px;
+			border: 5px solid black;
+			width: 100px;
+			text-align: center;
+			position: absolute;
+			top: -5px;
+			right: -5px;
+			font-size: 2em; 
+		}
+		.header1{
+			background: #ff0000;
+		}
+		.header2{
+			background: #00ff00;
+		}
+		.header3{
+			background: #0000ff;
+		}
+		@media (min-width: 768px) and (max-width: 991px) {
+			.column{
+				width: 50%;
+				float: right;
+			}
+		}
+		.alignment {
+			width: 100%;
+		}
+		/******* Served In a Last In First Out Priority*******/
+		@media (min-width: 992px)
+		{
+			.column{
+				width: 33.33%;
+				float: right;
+			}
+		}
+
+		@media (min-width: 0px) and (max-width: 767) {
+			.column{
+				width: 100%;
+				float: right;
+			}
+		}
